@@ -1,0 +1,15 @@
+====================================
+ATRIBUTOS DE VALIDACION
+====================================
+- para que un campo sea obligatorio, necesitamos agregar la propiedad
+  required en la etiqueta <input> de html
+
+- en caso que el campo requerido sea un email, se especifica dentro de
+  la propiedad type de la etiqueta -> type ="email"
+
+	
+- en caso de ser una contraseña -> type ="password", para especificar
+  una longitud minima para el pass -> minlength="cantidadMinima"
+  podemos tambien especificar una cant maxi -> maxlength="cantidadMax"
+  !!! type = "passsword" unicamente esconde el valor ingresado como 
+      contraseña, pero no valida ¡¡¡
