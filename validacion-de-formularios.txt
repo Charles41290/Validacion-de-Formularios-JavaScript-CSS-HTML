@@ -13,3 +13,30 @@ ATRIBUTOS DE VALIDACION
   podemos tambien especificar una cant maxi -> maxlength="cantidadMax"
   !!! type = "passsword" unicamente esconde el valor ingresado como 
       contraseña, pero no valida ¡¡¡
+
+- valiando contraseña con Regex -> usamos pattern dentro de la etiqueta
+  Regex
+> ^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$
+  long permitida de 6-12 caracteres, tiene que incluir mayusculas, minus
+  numero y no incluir caracteres especiales
+  Podemos incluir un mensaje que explique al usuario el formato aceptado
+  para la contraseña -> title ="Message"
+
+- para un mensaje de error customizado podemos usar la funcion del input
+  .setCustomValidity('Message') sobre un objeto dle DOM
+
+- para formato fecha se elige el type ="date"
+
+- crear un objeto tipo Date -> new Date('Valor')-> valor puede venir del
+  .value de un input de type ="fecha"
+
+- puedo acceder a los data-attributes con el metodo .dataset. Este me 
+  devuelve un mapa donde esta cada uno de los atributos con su respectivo
+  valor
+> objeto.dataset -> devuelve un array con cada data attribute y su respec
+  valor  
+
+- podemos iterar sobre un objeto iterable con 
+> nombreObjeto.forEach()
+
+
