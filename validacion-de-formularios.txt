@@ -39,4 +39,11 @@ ATRIBUTOS DE VALIDACION
 - podemos iterar sobre un objeto iterable con 
 > nombreObjeto.forEach()
 
+- los objetos tipo input tienen un validityState al cual accedemos mediante
+> nombreObjeto.validity -> contien propiedades de tipo booleando relacionadas
+  a la validez definida para un objeto tipo input.
+  Si se cumplen todas las restricciones la propiedad .validity returns true
+
+
+
 
