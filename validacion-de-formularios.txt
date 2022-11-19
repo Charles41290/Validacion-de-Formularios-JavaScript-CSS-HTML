@@ -43,6 +43,14 @@ ATRIBUTOS DE VALIDACION
 > nombreObjeto.validity -> contien propiedades de tipo booleando relacionadas
   a la validez definida para un objeto tipo input.
   Si se cumplen todas las restricciones la propiedad .validity returns true
+  (ValidityState contiene -> valueMissing, patternMismatch, etc...)
+
+
+- validacion num telefono-> validamos en la etique con pattern y una regEx
+  y agregamos type="text" maxlength="10" (maxlength siver para type text)
+
+
+-
 
 
 
